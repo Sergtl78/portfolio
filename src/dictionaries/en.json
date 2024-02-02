@@ -1,0 +1,46 @@
+{
+  "navigation": [
+    { "id": "home", "title": "Home", "url": "/" },
+    { "id": "skills", "title": "Skills", "url": "/skills" },
+    { "id": "projects", "title": "Projects", "url": "/projects" }
+  ],
+  "sidebar": {
+    "title": "Sergei Talatushin",
+    "profession": "Frontend developer",
+    "stack": "(TypeScript | React | Next.js)",
+    "h3Social": "Contact me"
+  },
+  "page": {
+    "home": {
+      "title": "Welcome to NextJs i18n",
+      "description": "Internationalization in NextJs 13 App router"
+    },
+    "skills": {
+      "title": "Skills",
+      "description": "This is the Skills page",
+      "languages": "Languages",
+      "libraries": "Libraries and frameworks",
+      "tools": "Tools"
+    },
+    "projects": {
+      "meta": {
+        "title": "Проекты",
+        "description": "This is the Projects page"
+      },
+      "title": "Projects",
+      "description": "This is the Projects page",
+      "project1": {
+        "name": "Portfolio",
+        "description": "Сайт портфолио с моими навыками программирования и интересными проектами. ",
+        "tools": "Tailwind, React, Next.js, Framer Motion",
+        "url": "https://github.com/Sergtl78"
+      },
+      "project2": {
+        "name": "Online shop",
+        "description": "Сайт интернет-магазина с моими навыками программирования и интересными проектами. ",
+        "tools": "Tailwind, React, Next.js, Redux Toolkit, React Hook Form, GraphQL, CMS-Strapi",
+        "url": "https://github.com/Sergtl78/shop-next.js-strapi"
+      }
+    }
+  }
+}

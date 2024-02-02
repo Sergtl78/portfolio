@@ -1,0 +1,51 @@
+{
+  "navigation": [
+    { "id": "home", "title": "Главная", "url": "/" },
+    { "id": "skills", "title": "Навыки", "url": "/skills" },
+    { "id": "projects", "title": "Проекты", "url": "/projects" }
+  ],
+  "sidebar": {
+    "title": "Сергей Талатушин",
+    "profession": "Frontend developer",
+    "stack": "(TypeScript | React | Next.js)",
+    "h3Social": "Свяжитесь со мной"
+  },
+  "page": {
+    "home": {
+      "meta": {
+        "title": "Web developer",
+        "description": "Internationalization in NextJs 14 App router"
+      },
+      "title": "Привет 👋 меня зовут Сергей",
+      "description": "Internationalization in NextJs 14 App router"
+    },
+    "skills": {
+      "meta": {
+        "title": "Навыки",
+        "description": "This is the Skills page"
+      },
+      "title": "Навыки",
+      "languages": "Языки программирования ",
+      "libraries": "Библиотеки и фреймворки",
+      "tools": "Инструменты"
+    },
+    "projects": {
+      "meta": {
+        "title": "Проекты",
+        "description": "This is the Projects page"
+      },
+      "title": "Проекты",
+      "description": "This is the Projects page",
+      "project1": {
+        "name": "Портфолио",
+        "description": "Сайт портфолио с моими навыками программирования и интересными проектами. ",
+        "tools": "Tailwind, React, Next.js, Framer Motion"
+      },
+      "project2": {
+        "name": "Интернет-магазин",
+        "description": "Сайт интернет-магазина с моими навыками программирования и интересными проектами. ",
+        "tools": "Tailwind, React, Next.js, Redux Toolkit, React Hook Form, GraphQL, CMS-Strapi"
+      }
+    }
+  }
+}
