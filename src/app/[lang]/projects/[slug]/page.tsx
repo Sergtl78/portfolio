@@ -27,7 +27,6 @@ export async function generateMetadata({ params }: ProjectPageProps) {
     slug: params?.slug || 'portfolio',
     lang: params?.lang || 'ru'
   })
-  console.log(meta)
 
   return { title: meta.title, description: meta.description }
 }

@@ -14,7 +14,6 @@ const Menu = ({
   menu: typeof dist.navigation
 }) => {
   const pathname = usePathname()
-  console.log(pathname)
 
   return (
     <nav className=' my-10 flex flex-col'>

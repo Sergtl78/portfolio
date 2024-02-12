@@ -24,7 +24,6 @@ export const getDescriptionBySlug = async ({
     source: fileContent,
     options: { parseFrontmatter: true }
   })
-  console.log(frontmatter.title)
 
   return {
     meta: {

@@ -40,7 +40,7 @@ const SliderProject = ({ project, size = 'card' }: SliderProjectProps) => {
               )}
             >
               <Image
-                src={process.env.NEXT_PUBLIC_APP_URL + slide.url}
+                src={slide.url}
                 alt={slide.alt}
                 fill
                 sizes={size === 'card' ? '20vw' : '80vw'}
