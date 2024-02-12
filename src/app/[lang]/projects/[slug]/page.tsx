@@ -32,7 +32,7 @@ export async function generateMetadata({ params }: ProjectPageProps) {
   return { title: meta.title, description: meta.description }
 }
 export async function generateStaticParams() {
-  return ['portfolio', 'shop']
+  return [{ slug: 'portfolio' }, { slug: 'shop' }]
 }
 
 const ProjectPage = async ({ params }: ProjectPageProps) => {
