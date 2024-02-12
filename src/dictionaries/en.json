@@ -4,34 +4,38 @@
     { "id": "skills", "title": "Skills", "url": "/skills" },
     { "id": "projects", "title": "Projects", "url": "/projects" }
   ],
-  "sidebar": {
-    "title": "Sergei Talatushin",
-    "profession": "Frontend developer",
-    "stack": "(TypeScript | React | Next.js)",
-    "h3Social": "Contact me"
-  },
+  "copyright": "Sergey Talatushin.",
+  "social_title": "Contact me",
   "page": {
     "home": {
-      "title": "Welcome to NextJs i18n",
-      "description": "Internationalization in NextJs 13 App router"
+      "meta": {
+        "title": "Web developer",
+        "description": "Web developer portfolio. This is the Home page with NextJs 14 App router"
+      },
+      "title": "Hi, 👋 my name is Sergey",
+      "subtitle": "Web developer from Russia 🇷🇺",
+      "description": "This is my portfolio with my programming skills and interesting projects."
     },
     "skills": {
+      "meta": {
+        "title": "Skills",
+        "description": "Programming languages ​​and tools used"
+      },
       "title": "Skills",
-      "description": "This is the Skills page",
       "languages": "Languages",
       "libraries": "Libraries and frameworks",
       "tools": "Tools"
     },
     "projects": {
       "meta": {
-        "title": "Проекты",
-        "description": "This is the Projects page"
+        "title": "Projects",
+        "description": "Examples of my projects"
       },
       "title": "Projects",
-      "description": "This is the Projects page",
+      "description": "Examples of my projects",
       "portfolio": {
         "name": "Portfolio",
-        "description": "Сайт портфолио с моими навыками программирования и интересными проектами. ",
+        "description": "Portfolio site with my programming skills and interesting projects. ",
         "tools": {
           "title": "Tools",
           "name": "Tailwind, React, Next.js, Framer Motion"
@@ -42,7 +46,7 @@
       },
       "shop": {
         "name": "Online shop",
-        "description": "Сайт интернет-магазина с моими навыками программирования и интересными проектами. ",
+        "description": "Online store website using Next 14 and Strapi-CMS.",
         "tools": {
           "title": "Tools",
           "name": "Tailwind, React, Next.js, Redux Toolkit, React Hook Form, GraphQL, CMS-Strapi"
@@ -50,6 +54,17 @@
         "link": "/projects/shop",
         "linkTitle": "More details...",
         "gitUrl": "https://github.com/Sergtl78/shop-next.js-strapi"
+      },
+      "nest_auth": {
+        "name": "NestJS authentication example",
+        "description": "Implemented on NestJS using JWT, as well as with support for Yandex and Google authentication. ",
+        "tools": {
+          "title": "Tools",
+          "name": "TypeScript, NestJS, Prisma, PostgreSQL, JWT, Docker"
+        },
+        "link": "/projects/nest_auth",
+        "linkTitle": "More details...",
+        "gitUrl": "https://github.com/Sergtl78/nest-auth"
       }
     }
   }

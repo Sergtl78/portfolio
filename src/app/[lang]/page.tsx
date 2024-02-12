@@ -14,7 +14,8 @@ export default async function Home({ params }: Props) {
       <h1 className='flex w-full items-center justify-start'>
         {page.home.title}
       </h1>
-      <h2>{page.home.description}</h2>
+      <h2>{page.home.subtitle}</h2>
+      <h3>{page.home.description}</h3>
     </section>
   )
 }

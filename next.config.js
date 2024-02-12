@@ -1,8 +1,6 @@
 /** @type {import('next').NextConfig} */
 
 const nextConfig = {
-  //basePath: '/portfolio',
-  //output: 'export',
   pageExtensions: ['ts', 'tsx', 'js', 'jsx', 'md', 'mdx'],
   images: {
     remotePatterns: [

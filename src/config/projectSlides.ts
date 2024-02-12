@@ -60,6 +60,13 @@ export const projectsSlides = {
       alt: 'strapi_products',
       url: '/public/shop/strapi_products.png'
     }
+  ],
+  nest_auth: [
+    {
+      id: 'nest_auth',
+      alt: 'nest_auth',
+      url: '/public/nest_auth/nest_auth.png'
+    }
   ]
 }
 export type ProjectSlideType = (typeof projectsSlides)['portfolio']

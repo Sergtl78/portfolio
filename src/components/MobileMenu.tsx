@@ -11,7 +11,7 @@ type MobileMenuProps = {
 }
 
 const MobileMenu = async ({ lang = 'ru' }: MobileMenuProps) => {
-  const { navigation, sidebar } = await getDictionary(lang)
+  const { navigation, social_title } = await getDictionary(lang)
   return (
     <Sheet>
       <SheetTrigger asChild>
@@ -21,7 +21,7 @@ const MobileMenu = async ({ lang = 'ru' }: MobileMenuProps) => {
       </SheetTrigger>
       <SheetContent side={'left'}>
         <Menu lang={lang} menu={navigation} />
-        <Social h3Social={sidebar.h3Social} />
+        <Social h3Social={social_title} />
       </SheetContent>
     </Sheet>
   )

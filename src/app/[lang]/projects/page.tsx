@@ -24,6 +24,11 @@ const ProjectsPage = async ({ params }: ProjectsPageProps) => {
         projectText={page.projects.shop}
         projectSlides={projectsSlides.shop}
       />
+      <CardProject
+        lang={params.lang}
+        projectText={page.projects.nest_auth}
+        projectSlides={projectsSlides.nest_auth}
+      />
     </section>
   )
 }
