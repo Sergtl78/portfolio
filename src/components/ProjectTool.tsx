@@ -2,7 +2,7 @@ import { Dictionary } from '@/lib/dictionaries'
 import { Badge } from './ui/badge'
 
 type Props = {
-  tools: Dictionary['page']['projects']['project1']['tools']
+  tools: Dictionary['page']['projects']['portfolio']['tools']
 }
 
 const ProjectTool = ({ tools }: Props) => {
