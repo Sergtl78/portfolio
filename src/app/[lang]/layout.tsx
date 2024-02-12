@@ -21,10 +21,7 @@ export const metadata: Metadata = {
 generateViewport()
 
 export async function generateStaticParams() {
-  return i18n.locales.map(locale => {
-    if (locale === 'ru') return ''
-    return { lang: locale }
-  })
+  return i18n.locales.map(locale => ({ lang: locale }))
 }
 
 export default function RootLayout({
