@@ -10,7 +10,7 @@ type Props = {
 export default async function Home({ params }: Props) {
   const { page } = await getDictionary(params.lang)
   return (
-    <section className=' flex  w-full h-full  min-h-dvh flex-col items-start justify-center gap-y-9 p-6 bg-green-500'>
+    <section className=' flex  w-full h-full  min-h-dvh flex-col items-start justify-center gap-y-9 p-6'>
       <h1 className='flex w-full items-center justify-start'>
         {page.home.title}
       </h1>
