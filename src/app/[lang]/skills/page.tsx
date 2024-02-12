@@ -11,7 +11,7 @@ type SkillsPageProps = {
 const SkillsPage = async ({ params }: SkillsPageProps) => {
   const { page } = await getDictionary(params.lang)
   return (
-    <section className=' flex h-screen w-full flex-col items-start justify-center gap-y-9 p-6 '>
+    <section className=' flex  w-full  min-h-dvh flex-col items-start justify-center gap-y-9 p-6 '>
       <h1 className='flex w-full items-center justify-center'>
         {page.skills.title}
       </h1>

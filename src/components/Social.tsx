@@ -8,11 +8,11 @@ type Props = {
 
 const Social = ({ h3Social }: Props) => {
   return (
-    <section className='flex flex-col gap-y-4'>
-      <h4>{h3Social}</h4>
-      <div className=' flex flex-row items-center justify-center gap-4'>
+    <section className='flex flex-col md:flex-row gap-4 items-center text-primary-foreground'>
+      <p className='mb-0'>{h3Social}</p>
+      <div className=' flex  flex-row items-center justify-center gap-4'>
         <Link href={'mailto:sertl78@yandex.ru'} target='_blank'>
-          <IconEmail className='h-8 w-8' />
+          <IconEmail className='h-8 w-8 text-primary-foreground' />
         </Link>
 
         <Link
@@ -23,7 +23,7 @@ const Social = ({ h3Social }: Props) => {
         </Link>
 
         <Link href={'https://github.com/Sergtl78'} target='_blank'>
-          <GitHubLogoIcon className='h-8 w-8' />
+          <GitHubLogoIcon className='h-8 w-8 text-primary-foreground' />
         </Link>
 
         <Link href={'https://t.me/Sergtl'} target='_blank'>
@@ -34,7 +34,7 @@ const Social = ({ h3Social }: Props) => {
           href={'https://api.whatsapp.com/send/?phone=79200204613'}
           target='_blank'
         >
-          <IconWhatsapp className='h-8 w-8' />
+          <IconWhatsapp className={` fill-white`} />
         </Link>
       </div>
     </section>

@@ -1,9 +1,9 @@
 export const projectsSlides = {
-  project1: [
+  portfolio: [
     { id: 'project1', alt: 'Screen1', url: '/public/portfolio/1.png' },
     { id: 'project1-2', alt: 'Screen2', url: '/public/portfolio/2.png' }
   ],
-  project2: [
+  shop: [
     {
       id: 'cart_dark',
       alt: 'cart_dark',
@@ -62,4 +62,4 @@ export const projectsSlides = {
     }
   ]
 }
-export type ProjectType = (typeof projectsSlides)['project1']
+export type ProjectSlideType = (typeof projectsSlides)['portfolio']

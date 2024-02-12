@@ -8,7 +8,7 @@ interface NavLinkProps {
   [key: string]: any
 }
 
-export default function NavLink({ href, lang, ...props }: NavLinkProps) {
+export default function AppLink({ href, lang, ...props }: NavLinkProps) {
   const isDefaultLang = lang === i18n.defaultLocale
   const path = isDefaultLang ? href : `/${lang}${href}`
   return <Link href={path} {...props} />

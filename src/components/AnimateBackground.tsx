@@ -24,7 +24,7 @@ export default function AnimateBackground({
   return (
     <div
       onMouseMove={handleMouseMove}
-      className='max-w-screen relative max-h-screen overflow-hidden'
+      className='w-full relative min-h-dvh overflow-hidden'
     >
       {children}
       <motion.div
@@ -33,7 +33,7 @@ export default function AnimateBackground({
 
           top: mouseY //smoothMouse.y,
         }}
-        className='pointer-events-none absolute -inset-px h-[800px] w-[800px] rounded-full bg-gradient-radial from-primary/60 to-transparent opacity-20 blur-2xl'
+        className='pointer-events-none absolute -inset-px h-[800px] w-[800px] rounded-full bg-gradient-radial from-primary/80 to-transparent opacity-20 blur-2xl'
       />
       <motion.div
         initial={{ x: -600, y: -600 }}

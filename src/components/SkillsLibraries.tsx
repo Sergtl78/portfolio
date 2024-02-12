@@ -39,19 +39,20 @@ const SkillsLibraries = () => {
         </div>
       </div>
       <div className='flex flex-col items-center justify-center'>
-        <div className='mx-4 flex flex-row items-center justify-center space-x-2 text-6xl'>
-          <IconArrow className='h-8 w-8 rotate-180 fill-foreground' />
-          <TooltipComponent text={'RestApi'}>
-            <IconRestApi className='h-8 w-8 fill-foreground' />
-          </TooltipComponent>
-          <TooltipComponent text={'GraphQL'}>
-            <IconGraphQL className='h-10 w-10' />
-          </TooltipComponent>
-
-          <TooltipComponent text={'tRPC'}>
-            <IconTRPC className='h-10 w-10' />
-          </TooltipComponent>
-          <IconArrow className='h-8 w-8 fill-foreground' />
+        <div className='mx-4 flex flex-col md:flex-row items-center justify-center gap-2 text-6xl'>
+          <IconArrow className='h-8 w-8 -rotate-90 md:rotate-180 fill-foreground' />
+          <div className='flex flex-row items-center justify-center gap-x-2'>
+            <TooltipComponent text={'RestApi'}>
+              <IconRestApi className='h-8 w-8 fill-foreground' />
+            </TooltipComponent>
+            <TooltipComponent text={'GraphQL'}>
+              <IconGraphQL className='h-10 w-10' />
+            </TooltipComponent>
+            <TooltipComponent text={'tRPC'}>
+              <IconTRPC className='h-10 w-10' />
+            </TooltipComponent>
+          </div>
+          <IconArrow className='h-8 w-8 fill-foreground rotate-90 md:rotate-0' />
         </div>
       </div>
       <div className='flex flex-col items-center justify-center'>

@@ -10,17 +10,19 @@ const ProjectsPage = async ({ params }: ProjectsPageProps) => {
   const { page } = await getDictionary(params.lang || 'ru')
 
   return (
-    <section className=' flex h-screen w-full flex-col items-start justify-center gap-6  p-6 '>
+    <section className=' flex w-full  min-h-dvh flex-col items-start justify-center gap-6  md:p-6 mt-12 md:mt-8'>
       <h1 className='flex w-full items-center justify-center'>
         {page.projects.title}
       </h1>
       <CardProject
-        projectText={page.projects.project1}
-        project={projectsSlides.project1}
+        lang={params.lang}
+        projectText={page.projects.portfolio}
+        projectSlides={projectsSlides.portfolio}
       />
       <CardProject
-        projectText={page.projects.project2}
-        project={projectsSlides.project2}
+        lang={params.lang}
+        projectText={page.projects.shop}
+        projectSlides={projectsSlides.shop}
       />
     </section>
   )

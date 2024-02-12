@@ -29,17 +29,27 @@
       },
       "title": "Projects",
       "description": "This is the Projects page",
-      "project1": {
+      "portfolio": {
         "name": "Portfolio",
         "description": "Сайт портфолио с моими навыками программирования и интересными проектами. ",
-        "tools": "Tailwind, React, Next.js, Framer Motion",
-        "url": "https://github.com/Sergtl78"
+        "tools": {
+          "title": "Tools",
+          "name": "Tailwind, React, Next.js, Framer Motion"
+        },
+        "link": "/projects/portfolio",
+        "linkTitle": "More details...",
+        "gitUrl": "https://github.com/Sergtl78/portfolio"
       },
-      "project2": {
+      "shop": {
         "name": "Online shop",
         "description": "Сайт интернет-магазина с моими навыками программирования и интересными проектами. ",
-        "tools": "Tailwind, React, Next.js, Redux Toolkit, React Hook Form, GraphQL, CMS-Strapi",
-        "url": "https://github.com/Sergtl78/shop-next.js-strapi"
+        "tools": {
+          "title": "Tools",
+          "name": "Tailwind, React, Next.js, Redux Toolkit, React Hook Form, GraphQL, CMS-Strapi"
+        },
+        "link": "/projects/shop",
+        "linkTitle": "More details...",
+        "gitUrl": "https://github.com/Sergtl78/shop-next.js-strapi"
       }
     }
   }

@@ -1,5 +1,6 @@
 import { getDictionary } from '@/lib/dictionaries'
 import { Locale } from '~i18n.config'
+import Social from './Social'
 
 type Props = {
   lang: Locale
@@ -16,6 +17,7 @@ async function Footer({ lang }: Props) {
               <span className='text-lg'>© </span>
               {sidebar.title + ', ' + new Date().getFullYear()}
             </span>
+            <Social h3Social={sidebar.h3Social} />
           </div>
         </div>
       </div>

@@ -8,7 +8,7 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 
 import AnimateBackground from '@/components/AnimateBackground'
-import { Switchers } from '@/components/Switchers'
+import Navbar from '@/components/Navbar'
 import { Locale, i18n } from '~i18n.config'
 import { generateViewport } from '../../lib/generateViewport'
 
@@ -40,17 +40,14 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          {/*  <Navbar /> */}
-
           <AnimateBackground>
-            <main className='container relative flex flex-1 '>
-              <Switchers />
+            <Navbar lang={params.lang} />
+            <main className='container flex  min-h-dvh '>
               <SideBar lang={params.lang} />
               {children}
             </main>
+            <Footer lang={params.lang} />
           </AnimateBackground>
-
-          <Footer lang={params.lang} />
         </ThemeProvider>
       </body>
     </html>

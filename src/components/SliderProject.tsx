@@ -1,5 +1,6 @@
 'use client'
-import { ProjectType } from '@/config/projectSlides'
+import { ProjectSlideType } from '@/config/projectSlides'
+import { cn } from '@/lib/utils'
 import Autoplay from 'embla-carousel-autoplay'
 import Image from 'next/image'
 import {
@@ -11,10 +12,11 @@ import {
 } from './ui/carousel'
 
 type SliderProjectProps = {
-  project: ProjectType
+  project: ProjectSlideType
+  size?: 'card' | 'full'
 }
 
-const SliderProject = ({ project }: SliderProjectProps) => {
+const SliderProject = ({ project, size = 'card' }: SliderProjectProps) => {
   return (
     <Carousel
       opts={{
@@ -25,17 +27,23 @@ const SliderProject = ({ project }: SliderProjectProps) => {
           delay: 5000
         })
       ]}
-      className='w-full px-10 '
+      className='w-full'
     >
       <CarouselContent>
         {project.map((slide, index) => (
           <CarouselItem key={slide.id}>
-            <div className='relative w-full  max-w-sm h-44 md:h-44 bg-gradient-to-tl from-primary/50 '>
+            <div
+              className={cn(
+                'relative w-full bg-gradient-to-tl from-primary/50',
+                size === 'full' && 'h-[600px]  w-full',
+                size === 'card' && ' h-44 max-w-sm w-full'
+              )}
+            >
               <Image
                 src={process.env.NEXT_PUBLIC_APP_URL + slide.url}
                 alt={slide.alt}
                 fill
-                sizes='20vw'
+                sizes={size === 'card' ? '20vw' : '80vw'}
                 className='object-fill aspect-video'
               />
             </div>
@@ -44,11 +52,11 @@ const SliderProject = ({ project }: SliderProjectProps) => {
       </CarouselContent>
       <CarouselPrevious
         variant={'ghost'}
-        className='border border-border -left-0'
+        className='border border-border left-2 '
       />
       <CarouselNext
         variant={'ghost'}
-        className='border border-border -right-0'
+        className='border border-border right-2'
       />
     </Carousel>
   )
