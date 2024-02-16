@@ -1,6 +1,6 @@
 'use client'
-import TooltipComponent from './Tooltip'
-import { IconDocker, IconFigma, IconGit } from './icons'
+import TooltipComponent from '../../../../components/Tooltip'
+import { IconDocker, IconFigma, IconGit } from '../../../../components/icons'
 
 const SkillsTools = () => {
   return (

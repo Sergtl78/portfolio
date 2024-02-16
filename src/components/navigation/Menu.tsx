@@ -3,15 +3,17 @@ import dist from '@/dictionaries/ru.json'
 import { cn } from '@/lib/utils'
 import { usePathname } from 'next/navigation'
 import { Locale } from '~i18n.config'
-import AppLink from './AppLink'
-import { Button } from './ui/button'
+import AppLink from '../AppLink'
+import { Button } from '../ui/button'
 
 const Menu = ({
   lang,
-  menu
+  menu,
+  setOpen
 }: {
   lang: Locale
   menu: typeof dist.navigation
+  setOpen?: (open: boolean) => void
 }) => {
   const pathname = usePathname()
 
@@ -23,6 +25,7 @@ const Menu = ({
             <AppLink
               href={menu.url}
               lang={lang}
+              setOpen={setOpen}
               className='group flex flex-row items-center justify-start '
             >
               <Button className='text-base' variant={'ghost'}>

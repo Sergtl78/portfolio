@@ -1,5 +1,5 @@
 import Footer from '@/components/Footer'
-import SideBar from '@/components/SideBar'
+import SideBar from '@/components/navigation/SideBar'
 import { ThemeProvider } from '@/components/ThemeProvider'
 import { appData } from '@/config/appData'
 import { cn } from '@/lib/utils'
@@ -8,8 +8,8 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 
 import AnimateBackground from '@/components/AnimateBackground'
-import Navbar from '@/components/Navbar'
-import { Locale, i18n } from '~i18n.config'
+import Navbar from '@/components/navigation/Navbar'
+import { i18n, Locale } from '~i18n.config'
 import { generateViewport } from '../../lib/generateViewport'
 
 const inter = Inter({ subsets: ['latin'] })

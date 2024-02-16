@@ -1,5 +1,5 @@
-import ProjectTool from '@/components/ProjectTool'
-import SliderProject from '@/components/SliderProject'
+import ProjectTool from '@/app/[lang]/projects/components/ProjectTool'
+import SliderProject from '@/app/[lang]/projects/components/SliderProject'
 import { projectsSlides } from '@/config/projectSlides'
 import { getDictionary } from '@/lib/dictionaries'
 import { Locale } from '~i18n.config'

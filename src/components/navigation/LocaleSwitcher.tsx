@@ -4,7 +4,7 @@ import { redirectedPathName } from '@/lib/redirectedPathName'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { i18n } from '~i18n.config'
-import { Button } from './ui/button'
+import { Button } from '../ui/button'
 
 export default function LocaleSwitcher() {
   const pathName = usePathname()

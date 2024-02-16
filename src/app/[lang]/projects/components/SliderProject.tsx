@@ -9,7 +9,7 @@ import {
   CarouselItem,
   CarouselNext,
   CarouselPrevious
-} from './ui/carousel'
+} from '../../../../components/ui/carousel'
 
 type SliderProjectProps = {
   project: ProjectSlideType
@@ -34,8 +34,9 @@ const SliderProject = ({ project, size = 'card' }: SliderProjectProps) => {
           <CarouselItem key={slide.id}>
             <div
               className={cn(
-                'relative w-full bg-gradient-to-tl from-primary/50',
-                size === 'full' && 'h-[600px]  w-full',
+                'relative w-full bg-gradient-to-tl from-primary/50  ',
+                size === 'full' &&
+                  'md:h-[600px] md:max-w-full  w-full h-44 max-w-sm',
                 size === 'card' && ' h-44 max-w-sm w-full'
               )}
             >

@@ -1,5 +1,5 @@
 import { Dictionary } from '@/lib/dictionaries'
-import { Badge } from './ui/badge'
+import { Badge } from '@/ui/badge'
 
 type Props = {
   tools: Dictionary['page']['projects']['portfolio']['tools']

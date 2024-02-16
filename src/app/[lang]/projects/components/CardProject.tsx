@@ -3,7 +3,7 @@ import { Dictionary } from '@/lib/dictionaries'
 import { GitHubLogoIcon } from '@radix-ui/react-icons'
 import Link from 'next/link'
 import { Locale } from '~i18n.config'
-import AppLink from './AppLink'
+import AppLink from '../../../../components/AppLink'
 import ProjectTool from './ProjectTool'
 import SliderProject from './SliderProject'
 

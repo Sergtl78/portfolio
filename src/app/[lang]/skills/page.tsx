@@ -1,8 +1,8 @@
-import SkillsLanguages from '@/components/SkillsLanguages'
-import SkillsLibraries from '@/components/SkillsLibraries'
-import SkillsTools from '@/components/SkillsTools'
 import { getDictionary } from '@/lib/dictionaries'
 import { Locale } from '~i18n.config'
+import SkillsLanguages from './components/SkillsLanguages'
+import SkillsLibraries from './components/SkillsLibraries'
+import SkillsTools from './components/SkillsTools'
 
 type SkillsPageProps = {
   params: { lang: Locale }

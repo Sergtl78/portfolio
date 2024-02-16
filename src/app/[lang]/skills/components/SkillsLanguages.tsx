@@ -1,6 +1,12 @@
 'use client'
-import TooltipComponent from './Tooltip'
-import { IconCSS, IconHtml5, IconJavaScript, IconTypeScript } from './icons'
+
+import TooltipComponent from '@/components/Tooltip'
+import {
+  IconCSS,
+  IconHtml5,
+  IconJavaScript,
+  IconTypeScript
+} from '@/components/icons'
 
 const SkillsLanguages = () => {
   return (

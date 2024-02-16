@@ -1,5 +1,5 @@
 'use client'
-import TooltipComponent from './Tooltip'
+import TooltipComponent from '../../../../components/Tooltip'
 import {
   IconArrow,
   IconExpress,
@@ -16,7 +16,7 @@ import {
   IconTRPC,
   IconTailwindCss,
   IconZustand
-} from './icons'
+} from '../../../../components/icons'
 
 const SkillsLibraries = () => {
   return (

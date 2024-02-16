@@ -14,7 +14,7 @@
       },
       "title": "Hi, 👋 my name is Sergey",
       "subtitle": "Web developer from Russia 🇷🇺",
-      "description": "This is my portfolio with my programming skills and interesting projects."
+      "description": "Projects and a something about me."
     },
     "skills": {
       "meta": {
@@ -35,7 +35,7 @@
       "description": "Examples of my projects",
       "portfolio": {
         "name": "Portfolio",
-        "description": "Portfolio site with my programming skills and interesting projects. ",
+        "description": "Portfolio site with my programming skills and projects. ",
         "tools": {
           "title": "Tools",
           "name": "Tailwind, React, Next.js, Framer Motion"

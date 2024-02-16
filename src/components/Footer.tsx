@@ -9,10 +9,10 @@ type Props = {
 async function Footer({ lang }: Props) {
   const { social_title, copyright } = await getDictionary(lang)
   return (
-    <footer className='w-full border-t  '>
+    <footer className='w-full border-t mt-10 '>
       <div className='flex bg-zinc-900 py-4 '>
         <div className='container'>
-          <div className='flex flex-col md:flex-row w-full items-center justify-between gap-2'>
+          <div className='flex flex-col-reverse md:flex-row w-full items-center justify-between gap-2'>
             <span className='mr-2 text-sm text-gray-400'>
               <span className='text-lg'>© </span>
               {copyright + ', ' + new Date().getFullYear()}

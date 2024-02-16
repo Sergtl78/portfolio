@@ -1,4 +1,4 @@
-import CardProject from '@/components/CardProject'
+import CardProject from '@/app/[lang]/projects/components/CardProject'
 import { projectsSlides } from '@/config/projectSlides'
 import { getDictionary } from '@/lib/dictionaries'
 import { Locale } from '~i18n.config'
