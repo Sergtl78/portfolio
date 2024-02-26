@@ -2,7 +2,13 @@
   "navigation": [
     { "id": "home", "title": "Home", "url": "/" },
     { "id": "skills", "title": "Skills", "url": "/skills" },
-    { "id": "projects", "title": "Projects", "url": "/projects" }
+    { "id": "projects", "title": "Projects", "url": "/projects" },
+    {
+      "id": "resume",
+      "title": "Resume",
+      "url": "/myResume.pdf",
+      "target": "_blank"
+    }
   ],
   "copyright": "Sergey Talatushin.",
   "social_title": "Contact me",

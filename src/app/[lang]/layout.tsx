@@ -9,8 +9,8 @@ import { Inter } from 'next/font/google'
 
 import AnimateBackground from '@/components/AnimateBackground'
 import Navbar from '@/components/navigation/Navbar'
+import { generateViewport } from '@/lib/generateViewport'
 import { i18n, Locale } from '~i18n.config'
-import { generateViewport } from '../../lib/generateViewport'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -18,6 +18,7 @@ export const metadata: Metadata = {
   title: appData.title,
   description: appData.description
 }
+
 generateViewport()
 
 export async function generateStaticParams() {

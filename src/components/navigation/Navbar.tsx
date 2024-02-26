@@ -28,6 +28,19 @@ const Navbar = async ({ lang }: NavbarProps) => {
               <Image src={appData.logo} alt='logo' width={40} height={40} />
             </Button>
           </Link>
+          {/* <Link
+            href={'ru/myResume.pdf'}
+            //alt='alt text'
+            target='_blank'
+            rel='noopener noreferrer'
+            download
+            locale={false}
+            className='hidden md:flex items-center '
+          >
+            <Button variant={'ghost'} size={'sm'}>
+              Resume
+            </Button>
+          </Link> */}
         </div>
 
         <Switchers />

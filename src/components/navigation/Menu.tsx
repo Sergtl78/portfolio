@@ -25,6 +25,7 @@ const Menu = ({
             <AppLink
               href={menu.url}
               lang={lang}
+              target={menu.target}
               setOpen={setOpen}
               className='group flex flex-row items-center justify-start '
             >

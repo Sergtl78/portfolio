@@ -3,7 +3,7 @@ export const appData = {
   description: 'Web application development using TypeScript, React, Next.js',
   profession: 'Frontend developer',
   stack: '(TypeScript | React | Next.js)',
-  logo: '/public/logo.png'
+  logo: '/logo.png'
 }
 
 export const appMenu = [
