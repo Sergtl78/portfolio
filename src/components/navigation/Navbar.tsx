@@ -29,7 +29,7 @@ const Navbar = async ({ lang }: NavbarProps) => {
             </Button>
           </Link>
           {/* <Link
-            href={'ru/myResume.pdf'}
+            href={'ru/frontend_Talatushin.pdf'}
             //alt='alt text'
             target='_blank'
             rel='noopener noreferrer'

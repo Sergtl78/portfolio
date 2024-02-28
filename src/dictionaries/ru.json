@@ -3,7 +3,12 @@
     { "id": "home", "title": "Главная", "url": "/" },
     { "id": "skills", "title": "Навыки", "url": "/skills" },
     { "id": "projects", "title": "Проекты", "url": "/projects" },
-    { "id": "resume", "title": "Резюме", "url": "/myResume.pdf", "target": "_blank" }
+    {
+      "id": "resume",
+      "title": "Резюме",
+      "url": "/frontend_Talatushin.pdf",
+      "target": "_blank"
+    }
   ],
   "copyright": "Сергей Талатушин.",
   "social_title": "Связаться со мной",
@@ -13,7 +18,7 @@
         "title": "Web developer",
         "description": "Web developer portfolio. This is the Home page with NextJs 14 App router"
       },
-      "title": "Привет 👋 меня зовут Сергей",
+      "title": "Привет,👋 меня зовут Сергей",
       "subtitle": "Web разработчик из России 🇷🇺",
       "description": "Проекты и немного обо мне."
     },
