@@ -1,7 +1,12 @@
 export const projectsSlides = {
   portfolio: [
-    { id: 'project1', alt: 'Screen1', url: '/public/portfolio/1.png' },
-    { id: 'project1-2', alt: 'Screen2', url: '/public/portfolio/2.png' }
+    { id: 'portfolio', alt: 'portfolio', url: '/public/portfolio/1.png' },
+    { id: 'portfolio-2', alt: 'portfolio', url: '/public/portfolio/2.png' },
+    { id: 'portfolio-3', alt: 'portfolio', url: '/public/portfolio/3.png' },
+    { id: 'portfolio-4', alt: 'portfolio', url: '/public/portfolio/4.png' },
+    { id: 'portfolio-5', alt: 'portfolio', url: '/public/portfolio/5.png' },
+    { id: 'portfolio-6', alt: 'portfolio', url: '/public/portfolio/6.png' },
+    { id: 'portfolio-7', alt: 'portfolio', url: '/public/portfolio/7.png' }
   ],
   shop: [
     {

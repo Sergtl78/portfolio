@@ -1,14 +1,19 @@
+import { constructMetadata } from '@/lib/constructMetadata'
 import { getDictionary } from '@/lib/dictionaries'
 import Image from 'next/image'
 import { Locale } from '~i18n.config'
 import Coding from '../../../public/giphy.gif'
-type Props = {
+type HomeProps = {
   params: {
     lang: Locale
   }
 }
 
-export default async function Home({ params }: Props) {
+export function generateMetadata({ params }: HomeProps) {
+  return constructMetadata({ params, path: 'home' })
+}
+
+export default async function Home({ params }: HomeProps) {
   const { page } = await getDictionary(params.lang)
   return (
     <section className=' flex  w-full h-full  min-h-dvh flex-col items-center justify-start  gap-y-9 p-6'>

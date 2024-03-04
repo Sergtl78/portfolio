@@ -1,4 +1,3 @@
-import { appData } from '@/config/appData'
 import { getDictionary } from '@/lib/dictionaries'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -25,7 +24,7 @@ const Navbar = async ({ lang }: NavbarProps) => {
           </div>
           <Link href={'/'} className='hidden md:flex items-center '>
             <Button variant={'ghost'} size={'sm'}>
-              <Image src={appData.logo} alt='logo' width={40} height={40} />
+              <Image src={'/logo.png'} alt='logo' width={40} height={40} />
             </Button>
           </Link>
           {/* <Link

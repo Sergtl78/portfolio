@@ -1,10 +1,8 @@
 import Footer from '@/components/Footer'
 import SideBar from '@/components/navigation/SideBar'
 import { ThemeProvider } from '@/components/ThemeProvider'
-import { appData } from '@/config/appData'
 import { cn } from '@/lib/utils'
 import '@/style/global.css'
-import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 
 import AnimateBackground from '@/components/AnimateBackground'
@@ -13,11 +11,6 @@ import { generateViewport } from '@/lib/generateViewport'
 import { i18n, Locale } from '~i18n.config'
 
 const inter = Inter({ subsets: ['latin'] })
-
-export const metadata: Metadata = {
-  title: appData.title,
-  description: appData.description
-}
 
 generateViewport()
 

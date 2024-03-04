@@ -1,3 +1,4 @@
+import { constructMetadata } from '@/lib/constructMetadata'
 import { getDictionary } from '@/lib/dictionaries'
 import { Locale } from '~i18n.config'
 import SkillsLanguages from './components/SkillsLanguages'
@@ -6,6 +7,9 @@ import SkillsTools from './components/SkillsTools'
 
 type SkillsPageProps = {
   params: { lang: Locale }
+}
+export function generateMetadata({ params }: SkillsPageProps) {
+  return constructMetadata({ params, path: 'skills' })
 }
 
 const SkillsPage = async ({ params }: SkillsPageProps) => {

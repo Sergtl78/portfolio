@@ -1,6 +1,6 @@
 import ProjectTool from '@/app/[lang]/projects/components/ProjectTool'
 import SliderProject from '@/app/[lang]/projects/components/SliderProject'
-import { projectsSlides } from '@/config/projectSlides'
+import { projectsSlides } from '@/content/projectSlides'
 import { getDictionary } from '@/lib/dictionaries'
 import { Locale } from '~i18n.config'
 

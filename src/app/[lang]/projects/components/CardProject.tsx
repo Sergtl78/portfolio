@@ -1,4 +1,4 @@
-import { ProjectSlideType } from '@/config/projectSlides'
+import { ProjectSlideType } from '@/content/projectSlides'
 import { Dictionary } from '@/lib/dictionaries'
 import { GitHubLogoIcon } from '@radix-ui/react-icons'
 import Link from 'next/link'

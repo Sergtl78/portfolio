@@ -1,5 +1,5 @@
 'use client'
-import { ProjectSlideType } from '@/config/projectSlides'
+import { ProjectSlideType } from '@/content/projectSlides'
 import { cn } from '@/lib/utils'
 import Autoplay from 'embla-carousel-autoplay'
 import Image from 'next/image'

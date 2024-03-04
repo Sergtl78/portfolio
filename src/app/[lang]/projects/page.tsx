@@ -1,10 +1,14 @@
 import CardProject from '@/app/[lang]/projects/components/CardProject'
-import { projectsSlides } from '@/config/projectSlides'
+import { projectsSlides } from '@/content/projectSlides'
+import { constructMetadata } from '@/lib/constructMetadata'
 import { getDictionary } from '@/lib/dictionaries'
 import { Locale } from '~i18n.config'
 
 type ProjectsPageProps = {
   params: { lang: Locale }
+}
+export function generateMetadata({ params }: ProjectsPageProps) {
+  return constructMetadata({ params, path: 'projects' })
 }
 const ProjectsPage = async ({ params }: ProjectsPageProps) => {
   const { page } = await getDictionary(params.lang || 'ru')
