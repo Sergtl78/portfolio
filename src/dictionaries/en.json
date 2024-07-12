@@ -39,6 +39,28 @@
       },
       "title": "Projects",
       "description": "Examples of my projects",
+      "shop_fiori": {
+        "name": "Online shop fioriopt.ru",
+        "description": "Online wholesale flower store.",
+        "tools": {
+          "title": "Tools",
+          "name": "Tailwind, React, Next.js, Zustand, React Hook Form"
+        },
+        "link": "/projects/shop_fiori",
+        "linkTitle": "More details...",
+        "gitUrl": "https://github.com/Sergtl78"
+      },
+      "next_wallet": {
+        "name": "Test task crypto-wallet on NextJS",
+        "description": "Implemented on NextJS, MUI, Redux uses Chrome extension Metamask.",
+        "tools": {
+          "title": "Tools",
+          "name": "TypeScript, NextJS, Redux, MUI, Chrome extension Metamask."
+        },
+        "link": "/projects/next_wallet",
+        "linkTitle": "More details...",
+        "gitUrl": "https://github.com/Sergtl78/nest-wallet"
+      },
       "portfolio": {
         "name": "Portfolio",
         "description": "Portfolio site with my programming skills and projects. ",
@@ -51,7 +73,7 @@
         "gitUrl": "https://github.com/Sergtl78/portfolio"
       },
       "shop": {
-        "name": "Online shop",
+        "name": "Online shop (pet-project)",
         "description": "Online store website using Next 14 and Strapi-CMS.",
         "tools": {
           "title": "Tools",

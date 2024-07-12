@@ -39,6 +39,28 @@
       },
       "title": "Проекты",
       "description": "Примеры моих проектов",
+      "shop_fiori": {
+        "name": "Интернет-магазин fioriopt.ru",
+        "description": "Интернет-магазин оптовой продажи цветов. ",
+        "tools": {
+          "title": "Технологии",
+          "name": "Tailwind, React, Next.js, Zustand, React Hook Form"
+        },
+        "link": "/projects/shop_fiori",
+        "linkTitle": "Подробнее...",
+        "gitUrl": "https://github.com/Sergtl78"
+      },
+      "next_wallet": {
+        "name": "Тестовое задание крипто-кошелек на NextJS",
+        "description": "Реализовано на NextJS, MUI, Redux использует Chrome extension Metamask.",
+        "tools": {
+          "title": "Технологии",
+          "name": "TypeScript, NextJS, Redux, MUI, Chrome extension Metamask."
+        },
+        "link": "/projects/next_wallet",
+        "linkTitle": "Подробнее...",
+        "gitUrl": "https://github.com/Sergtl78/nest-wallet"
+      },
       "portfolio": {
         "name": "Портфолио",
         "description": "Сайт портфолио с моими навыками программирования и проектами.",
@@ -51,7 +73,7 @@
         "gitUrl": "https://github.com/Sergtl78/portfolio"
       },
       "shop": {
-        "name": "Интернет-магазин",
+        "name": "Интернет-магазин (пет-проект)",
         "description": "Сайт интернет-магазина c использованием Next 14 и Strapi-CMS. ",
         "tools": {
           "title": "Технологии",

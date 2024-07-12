@@ -20,9 +20,20 @@ const ProjectsPage = async ({ params }: ProjectsPageProps) => {
       </h1>
       <CardProject
         lang={params.lang}
+        projectText={page.projects.shop_fiori}
+        projectSlides={projectsSlides.shop_fiori}
+      />
+      <CardProject
+        lang={params.lang}
+        projectText={page.projects.next_wallet}
+        projectSlides={projectsSlides.next_wallet}
+      />
+      <CardProject
+        lang={params.lang}
         projectText={page.projects.portfolio}
         projectSlides={projectsSlides.portfolio}
       />
+      
       <CardProject
         lang={params.lang}
         projectText={page.projects.shop}

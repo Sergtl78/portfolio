@@ -33,7 +33,7 @@ export default function AnimateBackground({
 
           top: mouseY //smoothMouse.y,
         }}
-        className='pointer-events-none absolute -inset-px h-[800px] w-[800px] rounded-full bg-gradient-radial from-primary/80 to-transparent opacity-20 blur-2xl'
+        className='pointer-events-none absolute -inset-px h-[800px] w-[800px] rounded-full bg-gradient-radial from-primary/80 to-transparent opacity-40 blur-2xl'
       />
       <motion.div
         initial={{ x: -600, y: -600 }}
@@ -44,7 +44,7 @@ export default function AnimateBackground({
           repeat: Infinity,
           repeatType: 'reverse'
         }}
-        className='pointer-events-none absolute -inset-px h-[600px] w-[600px] rounded-full bg-gradient-radial from-red-500/80 to-transparent opacity-20 blur-3xl'
+        className='pointer-events-none absolute -inset-px h-[600px] w-[600px] rounded-full bg-gradient-radial from-red-500/80 to-transparent opacity-40 blur-3xl'
       />
       <motion.div
         initial={{ x: '0', y: '100%' }}
@@ -55,7 +55,7 @@ export default function AnimateBackground({
           repeat: Infinity,
           repeatType: 'reverse'
         }}
-        className='pointer-events-none absolute -inset-px h-[600px] w-[600px] rounded-full bg-gradient-radial from-emerald-500/80 to-transparent opacity-20 blur-3xl'
+        className='pointer-events-none absolute -inset-px h-[600px] w-[600px] rounded-full bg-gradient-radial from-emerald-500/80 to-transparent opacity-40 blur-3xl'
       />
     </div>
   )
