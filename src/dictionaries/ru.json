@@ -39,6 +39,28 @@
       },
       "title": "Проекты",
       "description": "Примеры моих проектов",
+      "auction_admin": {
+        "name": "Админ-панель аукциона",
+        "description": "Админ-панель аукциона мест баннеров для ЛК арендодателя b2b.delispace.ru",
+        "tools": {
+          "title": "Технологии",
+          "name": "Tailwind, React, Next.js, Zustand, React Hook Form"
+        },
+        "link": "/projects/auction_admin",
+        "linkTitle": "Подробнее...",
+        "gitUrl": "https://github.com/Sergtl78"
+      },
+      "b2b": {
+        "name": "Личный кабинет арендодателя",
+        "description": "Личный кабинет арендодателя b2b.delispace.ru",
+        "tools": {
+          "title": "Технологии",
+          "name": "Tailwind, React, Next.js, Zustand, React Hook Form"
+        },
+        "link": "/projects/b2b",
+        "linkTitle": "Подробнее...",
+        "gitUrl": "https://github.com/Sergtl78"
+      },
       "shop_fiori": {
         "name": "Интернет-магазин fioriopt.ru",
         "description": "Интернет-магазин оптовой продажи цветов. ",

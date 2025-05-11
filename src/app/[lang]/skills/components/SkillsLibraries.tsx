@@ -1,4 +1,5 @@
 'use client'
+import { IconVue } from '@/components/icons/Vue'
 import TooltipComponent from '../../../../components/Tooltip'
 import {
   IconArrow,
@@ -67,6 +68,10 @@ const SkillsLibraries = () => {
 
           <TooltipComponent text={'Next.js'}>
             <IconNext className='h-10 w-10 fill-foreground' />
+          </TooltipComponent>
+
+          <TooltipComponent text={'Vue3'}>
+            <IconVue className='h-10 w-10' />
           </TooltipComponent>
 
           <TooltipComponent text={'Redux'}>

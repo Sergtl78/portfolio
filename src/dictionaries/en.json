@@ -39,6 +39,28 @@
       },
       "title": "Projects",
       "description": "Examples of my projects",
+      "auction_admin": {
+        "name": "Admin panel of the auction",
+        "description": "Admin panel of the auction of banner places for the landlord's personal account b2b.delispace.ru",
+        "tools": {
+          "title": "Tools",
+          "name": "Tailwind, React, Next.js, Zustand, React Hook Form"
+        },
+        "link": "/projects/auction_admin",
+        "linkTitle": "More details...",
+        "gitUrl": "https://github.com/Sergtl78"
+      },
+      "b2b": {
+        "name": "Landlord's personal account",
+        "description": "Landlord's personal account b2b.delispace.ru",
+        "tools": {
+          "title": "Tools",
+          "name": "Tailwind, React, Next.js, Zustand, React Hook Form"
+        },
+        "link": "/projects/b2b",
+        "linkTitle": "More details...",
+        "gitUrl": "https://github.com/Sergtl78"
+      },
       "shop_fiori": {
         "name": "Online shop fioriopt.ru",
         "description": "Online wholesale flower store.",

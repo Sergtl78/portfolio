@@ -20,6 +20,16 @@ const ProjectsPage = async ({ params }: ProjectsPageProps) => {
       </h1>
       <CardProject
         lang={params.lang}
+        projectText={page.projects.auction_admin}
+        projectSlides={projectsSlides.auction_admin}
+      />
+      <CardProject
+        lang={params.lang}
+        projectText={page.projects.b2b}
+        projectSlides={projectsSlides.b2b}
+      />
+      <CardProject
+        lang={params.lang}
         projectText={page.projects.shop_fiori}
         projectSlides={projectsSlides.shop_fiori}
       />
@@ -33,7 +43,7 @@ const ProjectsPage = async ({ params }: ProjectsPageProps) => {
         projectText={page.projects.portfolio}
         projectSlides={projectsSlides.portfolio}
       />
-      
+
       <CardProject
         lang={params.lang}
         projectText={page.projects.shop}

@@ -1,4 +1,27 @@
-export const projectsSlides = {
+export type ProjectSlideType = {
+  id: string
+  alt: string
+  url: string
+}[]
+export const projectsSlides: { [key: string]: ProjectSlideType } = {
+  auction_admin: [
+    {
+      id: 'auction_admin',
+      alt: 'auction_admin',
+      url: '/public/auction-admin/1.png'
+    },
+    {
+      id: 'auction_admin-2',
+      alt: 'auction_admin',
+      url: '/public/auction-admin/2.png'
+    }
+  ],
+  b2b: [
+    { id: 'b2b', alt: 'b2b', url: '/public/b2b/1.png' },
+    { id: 'b2b-2', alt: 'b2b', url: '/public/b2b/2.png' },
+    { id: 'b2b-3', alt: 'b2b', url: '/public/b2b/3.png' },
+    { id: 'b2b-4', alt: 'b2b', url: '/public/b2b/4.png' }
+  ],
   portfolio: [
     { id: 'portfolio', alt: 'portfolio', url: '/public/portfolio/1.png' },
     { id: 'portfolio-2', alt: 'portfolio', url: '/public/portfolio/2.png' },
@@ -158,4 +181,3 @@ export const projectsSlides = {
     }
   ]
 }
-export type ProjectSlideType = (typeof projectsSlides)['portfolio']
