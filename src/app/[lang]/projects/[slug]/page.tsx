@@ -6,7 +6,15 @@ import { Locale } from '~i18n.config'
 
 import { getDescriptionBySlug } from '@/lib/mdx'
 
-type SlugType = keyof typeof projectsSlides
+type SlugType =
+  | 'auction_admin'
+  | 'b2b'
+  | 'portfolio'
+  | 'shop_fiori'
+  | 'next_wallet'
+  | 'shop'
+  | 'nest_auth'
+
 type ProjectPageProps = {
   params?: { lang: Locale; slug: SlugType }
 }
@@ -15,7 +23,7 @@ const getPageContent = async ({
   slug,
   lang
 }: {
-  slug: SlugType
+  slug: string
   lang: Locale
 }) => {
   const { meta, content } = await getDescriptionBySlug({ slug, lang })
@@ -24,7 +32,7 @@ const getPageContent = async ({
 
 export async function generateMetadata({ params }: ProjectPageProps) {
   const { meta } = await getPageContent({
-    slug: params?.slug || 'portfolio',
+    slug: typeof params?.slug === 'string' ? params?.slug : 'portfolio',
     lang: params?.lang || 'ru'
   })
 
@@ -36,7 +44,7 @@ export async function generateStaticParams() {
 
 const ProjectPage = async ({ params }: ProjectPageProps) => {
   const { content } = await getPageContent({
-    slug: params?.slug || 'portfolio',
+    slug: typeof params?.slug === 'string' ? params?.slug : 'portfolio',
     lang: params?.lang || 'ru'
   })
   const projectSlides = projectsSlides[params?.slug || 'portfolio']
