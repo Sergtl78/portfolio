@@ -8,7 +8,8 @@
       "title": "Resume",
       "url": "/frontend_Talatushin.pdf",
       "target": "_blank"
-    }
+    },
+    { "id": "projects", "title": "Certificates", "url": "/certificates" }
   ],
   "copyright": "Sergey Talatushin.",
   "social_title": "Contact me",
@@ -116,6 +117,59 @@
         "linkTitle": "More details...",
         "gitUrl": "https://github.com/Sergtl78/nest-auth"
       }
+    },
+    "certificates": {
+      "meta": {
+        "title": "Certificates",
+        "description": "Web developer portfolio. My certificates"
+      },
+      "title": "Certificates received from the Ministry of Digital Development",
+      "subtitle": "Confirmation of my competencies and skills",
+      "description": "download the signed file .sig",
+      "items": [
+        {
+          "title": "HTML",
+          "image": "/public/certificates/html/html.png",
+          "level": "Advanced",
+          "link": "/html.pdf",
+          "downloadLink": "/html.sig"
+        },
+        {
+          "title": "CSS",
+          "image": "/public/certificates/css/css.png",
+          "level": "Advanced",
+          "link": "/css.pdf",
+          "downloadLink": "/css.sig"
+        },
+        {
+          "title": "JavaScript",
+          "image": "/public/certificates/javascript/javascript.png",
+          "level": "Advanced",
+          "link": "/javascript.pdf",
+          "downloadLink": "/javascript.sig"
+        },
+        {
+          "title": "Git",
+          "image": "/public/certificates/git/git.png",
+          "level": "Average",
+          "link": "/git.pdf",
+          "downloadLink": "/git.sig"
+        },
+        {
+          "title": "Docker",
+          "image": "/public/certificates/docker/docker.png",
+          "level": "Base",
+          "link": "/docker.pdf",
+          "downloadLink": "/docker.sig"
+        },
+        {
+          "title": "Api",
+          "image": "/public/certificates/api/api.png",
+          "level": "Average",
+          "link": "/api.pdf",
+          "downloadLink": "/api.sig"
+        }
+      ]
     }
   }
 }

@@ -8,7 +8,8 @@
       "title": "Резюме",
       "url": "/frontend_Talatushin.pdf",
       "target": "_blank"
-    }
+    },
+    { "id": "certificates", "title": "Сертификаты", "url": "/certificates" }
   ],
   "copyright": "Сергей Талатушин.",
   "social_title": "Связаться со мной",
@@ -116,6 +117,59 @@
         "linkTitle": "Подробнее...",
         "gitUrl": "https://github.com/Sergtl78/nest-auth"
       }
+    },
+    "certificates": {
+      "meta": {
+        "title": "Веб разработчик",
+        "description": "Web developer portfolio. This is the Home page with NextJs App router"
+      },
+      "title": "Сертификаты полученные в Минцифры",
+      "subtitle": "Подтверждение моих компетенций и навыков",
+      "description": "скачать подписанный фаил .sig",
+      "items": [
+        {
+          "title": "HTML",
+          "image": "/public/certificates/html/html.png",
+          "level": "Продвинутый",
+          "link": "/html.pdf",
+          "downloadLink": "/html.sig"
+        },
+        {
+          "title": "CSS",
+          "image": "/public/certificates/css/css.png",
+          "level": "Продвинутый",
+          "link": "/css.pdf",
+          "downloadLink": "/css.sig"
+        },
+        {
+          "title": "JavaScript",
+          "image": "/public/certificates/javascript/javascript.png",
+          "level": "Продвинутый",
+          "link": "/javascript.pdf",
+          "downloadLink": "/javascript.sig"
+        },
+        {
+          "title": "Git",
+          "image": "/public/certificates/git/git.png",
+          "level": "Средний",
+          "link": "/git.pdf",
+          "downloadLink": "/git.sig"
+        },
+        {
+          "title": "Docker",
+          "image": "/public/certificates/docker/docker.png",
+          "level": "Базовый",
+          "link": "/docker.pdf",
+          "downloadLink": "/docker.sig"
+        },
+        {
+          "title": "Api",
+          "image": "/public/certificates/api/api.png",
+          "level": "Средний",
+          "link": "/api.pdf",
+          "downloadLink": "/api.sig"
+        }
+      ]
     }
   }
 }
